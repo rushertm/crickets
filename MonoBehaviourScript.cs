@@ -8,11 +8,14 @@ public class MonoBehaviourScript : MonoBehaviour
     void Start()
     {
        print("Hello, world!");
+       Destroy(gameObject);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        print("crickets");
+         float quotient = (float)9385 / 2;
+        print("Частное: " + quotient);
     }
 }
